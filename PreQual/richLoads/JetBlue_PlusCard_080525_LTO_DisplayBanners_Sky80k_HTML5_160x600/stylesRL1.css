@@ -97,6 +97,7 @@ video {
   line-height: 32px;
   color: #0000aa;
   letter-spacing: -0.1px;
+  will-change: transform;
 }
 .copy1 span{
   display: inline-block;
@@ -126,6 +127,7 @@ video {
   border-top: #ff6433 solid 11px;
   background-color: #fff;
   transform: translateY(588px);
+  will-change: transform;
 }
 .card1 {
   width: 140px;

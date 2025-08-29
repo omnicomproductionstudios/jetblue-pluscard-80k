@@ -90,6 +90,7 @@ video {
   letter-spacing: -0.1px;
   position: relative;
   width: 100%;
+  will-change: transform;
 }
 .line1{
   position: absolute;
@@ -124,6 +125,7 @@ video {
   line-height: 25.5px;
   color: #0000aa;
   letter-spacing: -0.2px;
+  will-change: transform;
 }
 .last-frame{
   width: 100%;
@@ -131,6 +133,7 @@ video {
   border-left: #ff6433 solid 8px;
   background-color: #fff;
   transform: translateX(719px);
+  will-change: transform;
 }
 .card1 {
   width: 140px;

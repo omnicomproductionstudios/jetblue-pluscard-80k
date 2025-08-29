@@ -84,6 +84,7 @@ video {
   font-family: "ESKlarheitGrotesk Xbd";
   color: #0000aa;
   width: 100%;
+  will-change: transform;
 }
 .line1, .line3{
   display: block;
@@ -117,6 +118,7 @@ video {
   line-height: 32px;
   color: #0000aa;
   letter-spacing: -0.1px;
+  will-change: transform;
 
 }
 .copy2{
@@ -131,7 +133,7 @@ video {
   border-top: #ff6433 solid 10px;
   background-color: #fff;
   transform: translateY(589px);
-  /* transform: translateY(0px); */
+  will-change: transform;
 }
 .copy3{
   font-family: "ESKlarheitGrotesk Xbd";

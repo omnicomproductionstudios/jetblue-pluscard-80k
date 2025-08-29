@@ -89,6 +89,7 @@ video {
   line-height: 32px;
   color: #0000aa;
   letter-spacing: -0.1px;
+  will-change: transform;
 
 }
 .copy1 span{
@@ -120,7 +121,7 @@ video {
   border-top: #ff6433 solid 8px;
   background-color: #fff;
   transform: translateY(241px);
-  /* transform: translateY(0px); */
+  will-change: transform;
 }
 .card1 {
   width: 140px;
