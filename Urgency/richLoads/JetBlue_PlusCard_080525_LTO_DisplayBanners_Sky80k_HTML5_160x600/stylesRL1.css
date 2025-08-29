@@ -97,6 +97,7 @@ video {
   color: #0000aa;
   letter-spacing: -0.1px;
   text-align: center;
+  will-change: transform,
 }
 .copy1 .line1, .copy1 .line2, .copy1 .line3{
   width: 100%;
@@ -130,6 +131,7 @@ video {
   line-height: 33px;
   color: #0000aa;
   letter-spacing: -0.1px;
+  will-change: transform,
 }
 .last-frame{
   width: 100%;
@@ -137,6 +139,7 @@ video {
   border-top: #ff6433 solid 11px;
   background-color: #fff;
   transform: translateY(588px);
+  will-change: transform,
 }
 .card1 {
   width: 140px;
