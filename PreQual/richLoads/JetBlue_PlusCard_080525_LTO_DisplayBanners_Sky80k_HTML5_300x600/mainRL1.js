@@ -21,11 +21,10 @@ myFT.on('instantads', function () {
 init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  tl.set('#copy1', {y: 25})
   tl.set('#copy2', {y: 20})
 
   .addLabel('frame1', 0)
-    .to('#copy1', 1, {y: 0, autoAlpha: 1, ease: Power1.easeInOut}, 'frame1')
+    .to('#copy1', 1, {autoAlpha: 1, ease: Power1.easeInOut}, 'frame1')
     .to(['#copy1, #term1'], 0.5, {autoAlpha: 0, ease: Power1.easeInOut}, 'frame1+=3.5')
     .to('#copy2', 1, {y: 0, autoAlpha: 1, ease: Power1.easeInOut}, 'frame1+=3.7')
   .addLabel('frame2', 8.5)

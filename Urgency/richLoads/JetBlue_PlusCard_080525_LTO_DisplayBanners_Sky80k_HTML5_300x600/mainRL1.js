@@ -21,15 +21,14 @@ myFT.on('instantads', function () {
 init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  tl.set('#copy1', {y: 25})
   tl.set('#copy2', {y: 20})
 
   .addLabel('frame1', 0)
-    .to('#copy1', 1, {y: 0, autoAlpha: 1, ease: Power1.easeInOut}, 'frame1')
+    .to('#copy1', 1, {autoAlpha: 1, ease: Power1.easeInOut}, 'frame1')
+    .to(['#copy1, #term1'], 0.5, {autoAlpha: 0, ease: Power1.easeInOut}, 'frame1+=3.5')
     .to('#offer', 0.5, {x:-100,autoAlpha: 0, ease: Power1.easeInOut}, 'frame1+=3.5')
-    .to(['#copy1, #term1'], 0.5, {autoAlpha: 0, ease: Power1.easeInOut}, 'frame1+=3.7')
-    .to('#copy2', 1, {y: 0, autoAlpha: 1, ease: Power1.easeInOut}, 'frame1+=3.9')
-  .addLabel('frame2', 8.7)
+    .to('#copy2', 1, {y: 0, autoAlpha: 1, ease: Power1.easeInOut}, 'frame1+=3.7')
+  .addLabel('frame2', 8.5)
     .to(['#copy2, #card, #logo, #term'], 0.5, {autoAlpha: 0, ease: Power1.easeInOut}, 'frame2')
     .to('#lastFrame',0.5,{y: 0, ease: Power1.easeInOut}, 'frame2')
     .to('#shine', 0.5, {backgroundPosition: '265px 0px'}, 'frame2+=1');
