@@ -1,11 +1,11 @@
 FT.manifest({
   "filename": "index.html",
-  "width": 728,
-  "height": 90,
+  "width": 300,
+  "height": 250,
   "clickTagCount": 1,
   "hideBrowsers": ["ie8"],
   "richloads": [
-   {"name":"main_rl", "src":"JetBlue_PlusCard_080525_LTO_DisplayBanners_Sky80k_HTML5_728x90"}
+   {"name":"main_rl", "src":"JetBlue_PlusCard_091525_PreQual_DisplayBanners_HTML5_300x250_RL"}
  ],
   "instantAds": [
       {"name":"main_rl",          "type":"richload"},
